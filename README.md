@@ -1,7 +1,20 @@
-# SSRF Vulnerability Details
+# Web Link Extractor SSRF Proof-Of-Concept
+
 **Vulnerability:** Server-Side Request Forgery (SSRF) in PHP proxy
+<br>
 **Location:** ```index.php - proxy parameter```
+<br>
 **Impact:** Access to internal services, port scanning, cloud metadata access, potential internal network compromise.
+<br>
+**Source Code:** [Web Link Extractor v1.0](https://www.sourcecodester.com/php/18275/link-status-checker-using-php-and-javascript-source-code.html)
+<br>
+<br>
+<br>
+**Usage:** ```https://example.com/?proxy=http://localhost/index.php```
+
+![](./pocimage.png)
+
+-----
 
 ### Why This Code is Vulnerable to SSRF
 1. User-Controlled Input Without Proper Validation
@@ -92,7 +105,3 @@ If port is open but not HTTP: "Failed to fetch URL"
 
 If port is closed: "Connection refused"
 
------
-
-### POC
-![](./pocimage.png)
