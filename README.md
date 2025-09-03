@@ -1,4 +1,4 @@
-# Web Link Extractor SSRF Proof-Of-Concept
+# Link Status Checker SSRF Proof-Of-Concept
 
 **Vulnerability:** Server-Side Request Forgery (SSRF) in PHP proxy
 <br>
@@ -6,7 +6,7 @@
 <br>
 **Impact:** Access to internal services, port scanning, cloud metadata access, potential internal network compromise.
 <br>
-**Source Code:** [Web Link Extractor v1.0](https://www.sourcecodester.com/php/18275/link-status-checker-using-php-and-javascript-source-code.html)
+**Source Code:** [Link Status Checker v1.0](https://www.sourcecodester.com/php/18275/link-status-checker-using-php-and-javascript-source-code.html)
 <br>
 <br>
 <br>
